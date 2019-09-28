@@ -30,5 +30,3 @@ COPY . /opt/app
 # NO HEALTHCHECK
 
 CMD [ "node", "app.js" ]
-
-
