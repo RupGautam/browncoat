@@ -31,4 +31,4 @@ COPY . /opt/app
 
 CMD [ "node", "app.js" ]
 
-# vi:syntax=Dockerfile
+
