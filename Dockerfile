@@ -29,5 +29,3 @@ COPY . /opt/app
 # NO HEALTHCHECK
 
 CMD [ "node", "app.js" ]
-
-# vi:syntax=Dockerfile
