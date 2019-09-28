@@ -6,3 +6,6 @@
   - name: tests
     service: nodejs-example
     command: /bin/sh -c "node ./bin/www" # bash wrapper not required unless passing along env variables or combining commands
+  - name: second-test
+    service: nodejs-example
+    command: /bin/sh -c "../node_modules/nodemon/bin/nodemon.js ./bin/www --debug=5858"
