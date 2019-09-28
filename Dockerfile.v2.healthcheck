@@ -31,5 +31,3 @@ HEALTHCHECK --interval=5s --timeout=3s --start-period=10s --retries=3 \
   CMD curl -fs http://localhost:$PORT/healthz || exit 1
 
 CMD [ "node", "app.js" ]
-
-# vi:syntax=Dockerfile
